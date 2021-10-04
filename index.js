@@ -4,7 +4,7 @@ const cors = require('cors')
 const mongoose = require('mongoose');
 const Schema = require('./schema')
 // Connect to Database
-mongoose.connect('mongodb+srv://pendharisufiyan:uRH4v7rhjgf2Z6-@cluster0.u6mw7.mongodb.net/Data?retryWrites=true&w=majority')
+mongoose.connect('Enter your database key here')
 .then(console.log('Database Connected'))
 
 app.use(cors())
